@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "/app/components/library/scss/library-index";
+@import "./scss/type";
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.checkbox {
+  @apply accent-primary-500 focus:outline-none;
+  /* focus:ring-2 focus:ring-primary-100; */
+}
+
+.sidebar-open {
+  grid-template-columns: 232px calc(100vw - 232px);
+
+  // grid-template-columns: 15vw 85vw;
+  @media screen and (max-width: 1023px) {
+    grid-template-columns: 0 100vw;
+  }
+}
+
+.sidebar-closed {
+  grid-template-columns: 56px calc(100vw - 56px);
+
+  @media screen and (max-width: 1023px) {
+    grid-template-columns: 0 100vw;
+  }
+}
+
+.header > div.tr > div.th {
+  // @apply z-10 static;
+  z-index: 1;
+}
+
+.header > div.tr.has-filters.has-grouped-headers:first-child > div.th:nth-child(odd) {
+  @apply z-50 odd:bg-primary-50;
+  box-shadow:
+    0 35px 0 #eeedf7,
+    0 72px 0 #eeedf7;
+}
+
+.header > div.tr.no-filters.has-grouped-headers:first-child > div.th:nth-child(odd) {
+  @apply odd:bg-primary-50;
+  box-shadow: 0 35px 0 #eeedf7;
+}
+
+.header > div.tr:nth-child(2) {
+  @apply static;
+}
+
+.header:first-child [data-sticky-td] {
+  background-color: #eeedf7 !important;
+}
+
+.header [data-sticky-td] {
+  @apply divide-y;
+  position: sticky !important;
+  z-index: 1000 !important;
+  background-color: inherit !important;
+}
+
+.header [data-sticky-td].force-no-sticky {
+  position: unset !important;
+}
+
+.body [data-sticky-td].force-no-sticky {
+  position: unset !important;
+}
+
+//Add Bprder to Sticky table column group
+.table div[data-sticky-td="true"] {
+  box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.1);
+}
+
+.table div[data-sticky-td="true"].force-no-sticky {
+  box-shadow: none !important;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.dd-chevron-shadow {
+  box-shadow:
+    0 -10px 0 #fff,
+    0 10px 0 #fff,
+    9px 0 0 #fff,
+    9px 10px 0 #fff,
+    9px -10px 0 #fff;
+}
+
+// + project specific styles
+
+.login-page {
+  // background-image: url("/img/login_bg.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-color: hsl(153deg 96% 56% / 16%);
+  // background-blend-mode: luminosity;
+  // background-color: #fbbf24;
+  // background-blend-mode: multiply;
+  .left {
+    img {
+      height: 100%;
+    }
+  }
+}
+
+// - 401 & 403 page styles
+.neon {
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 90px;
+  color: #5be0b3;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px #6eecc1;
+  animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow:
+      0 0 5px #00ffc6,
+      0 0 15px #00ffc6,
+      0 0 50px #00ffc6,
+      0 0 50px #00ffc6,
+      0 0 2px #b9ffe8,
+      2px 2px 3px #12e29c;
+    color: #4bffef;
+  }
+
+  50% {
+    text-shadow:
+      0 0 3px #00b58d,
+      0 0 7px #00b58d,
+      0 0 25px #00b58d,
+      0 0 25px #00b58d,
+      0 0 2px #00b58d,
+      2px 2px 3px #006a60;
+    color: #63d3ae;
+  }
+}
+// .dropdown-single,
+// .dropdown-multi,
+// .text-field,
+// .date-picker,
+// .text-area {
+//   @apply w-full;
+//   > label {
+//     @apply text-sm text-slate-500;
+//   }
+// }
+
+.react-flow {
+  border: 1px solid theme("borderColor.slate.200") !important;
+  border-radius: theme("borderRadius.DEFAULT");
+  z-index: 0 !important;
+}
+.react-flow__panel a {
+  display: none;
+}
+.react-flow__handle {
+  background: theme("backgroundColor.slate.500") !important;
+}
+
+.table-cell-classlist {
+  @apply flex w-full items-center justify-start border-r border-slate-100 p-5;
+}
+
+.altd-sidebar-logo > span > svg {
+  display: inline-block;
+  width: 32px;
+}
+.sideWrapper > div > a > span > span > svg {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: -1.5rem;
+}

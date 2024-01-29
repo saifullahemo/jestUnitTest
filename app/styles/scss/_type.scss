@@ -1,0 +1,147 @@
+$d1-size: 5.5rem;
+$h1-size: 3.75rem;
+$h2-size: 3rem;
+$h3-size: 1.5714rem;
+$h4-size: 1.35rem;
+$h5-size: 1.375rem;
+$lead-size: 1.15rem;
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.display-1 {
+  font-weight: theme("fontWeight.extralight");
+  letter-spacing: theme("letterSpacing.tight");
+  color: theme("textColor.slate.800");
+  font-size: $d1-size;
+  @media screen and (max-width: 1024px) {
+    font-size: calc($d1-size / 1.5);
+  }
+}
+
+.display-2 {
+  font-size: theme("fontSize.8xl");
+  font-weight: theme("fontWeight.extralight");
+  letter-spacing: theme("letterSpacing.tight");
+  color: theme("textColor.slate.800");
+}
+
+.display-3 {
+  font-size: theme("fontSize.7xl");
+  font-weight: theme("fontWeight.extralight");
+  letter-spacing: theme("letterSpacing.tight");
+  color: theme("textColor.slate.800");
+}
+
+h1 {
+  font-size: $h1-size;
+  font-weight: theme("fontWeight.bold");
+  line-height: theme("lineHeight.none");
+  letter-spacing: theme("letterSpacing.tight");
+  color: theme("textColor.slate.800");
+
+  @media screen and (max-width: 1024px) {
+    font-size: calc($h1-size / 1.5);
+  }
+}
+
+h2 {
+  font-weight: theme("fontWeight.semibold");
+  letter-spacing: theme("letterSpacing.tight");
+  color: theme("textColor.slate.800");
+
+  font-size: $h2-size;
+  @media screen and (max-width: 1024px) {
+    font-size: calc($h2-size / 1.5);
+  }
+}
+
+h3 {
+  font-size: $h3-size;
+  font-weight: theme("fontWeight.semibold");
+  letter-spacing: theme("letterSpacing.tight");
+  color: theme("textColor.slate.800");
+
+  @media screen and (max-width: 1024px) {
+    font-size: calc($h3-size / 1.5);
+  }
+}
+
+h4 {
+  font-size: $h4-size;
+  font-weight: theme("fontWeight.semibold");
+  color: theme("textColor.slate.800");
+
+  @media screen and (max-width: 1024px) {
+    font-size: calc($h4-size / 1.15);
+  }
+}
+
+h5 {
+  font-size: $h5-size;
+  font-weight: theme("fontWeight.semibold");
+  letter-spacing: theme("letterSpacing.tight");
+  color: theme("textColor.slate.800");
+
+  @media screen and (max-width: 1024px) {
+    font-size: calc($h5-size / 1.25);
+  }
+}
+
+h6 {
+  font-size: theme("fontSize.base");
+  font-weight: theme("fontWeight.semibold");
+  color: theme("textColor.slate.800");
+}
+
+.dark :is(h1, h2, h3, h4, h5, h6, p, li, .caption) {
+  color: theme("textColor.slate.400");
+}
+
+.caption {
+  font-size: theme("fontSize.sm");
+  font-weight: theme("fontWeight.medium");
+  text-transform: uppercase;
+  letter-spacing: theme("letterSpacing.wider");
+  color: theme("textColor.slate.800");
+}
+
+p,
+li {
+  color: theme("textColor.slate.600/90");
+}
+
+caption {
+  color: theme("textColor.slate.500");
+  font-style: italic;
+}
+
+a {
+  transition: theme("transitionProperty.all"), theme("transitionTimingFunction.in-out"),
+    theme("transitionDuration.150");
+  &:hover {
+    color: theme("textColor.primary.DEFAULT");
+  }
+}
+
+.lead {
+  font-size: $lead-size;
+  color: theme("textColor.slate.600/90");
+  line-height: theme("lineHeight.6");
+  @media screen and (max-width: 1024px) {
+    font-size: calc($lead-size / 1.15);
+  }
+}
+
+.small {
+  font-size: 0.875rem;
+}
+
+.footer-link {
+  font-size: 0.875rem;
+}

@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    // Remove the incorrect option below
+    // "moduleDetection": "force",
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "allowImportingTsExtensions": true,
+    // Change "module" to "commonjs" for bundling
+    "module": "commonjs",
+    "moduleResolution": "node", // or "classic" depending on your project structure
+    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "ES2022"],
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "types": ["node"],
+    "paths": {
+      "@library/*": ["app/components/library/*"],
+      "@components/*": ["app/components/*"],
+      "@partials/*": ["app/components/partials/*"],
+      "@variables/*": ["app/styles/scss/*"],
+      "@utils/*": ["utils/*"]
+    },
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "commitlint.config.js",
+    "test.mjs"
+  ],
+  "exclude": ["node_modules", "tsconfig.json"]
+}

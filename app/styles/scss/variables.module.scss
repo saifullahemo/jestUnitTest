@@ -1,0 +1,96 @@
+$gray: "bg-slate-50";
+
+// Pine and BlueGray
+:export {
+  // Primary
+  primary: #59af56;
+  primary50: #ddefdc;
+  primary100: #c6e3c5;
+  primary200: #abd6a9;
+  primary300: #8fc98d;
+  primary400: #74bc72;
+  primary500: #59af56;
+  primary600: #448b42;
+  primary700: #326530;
+  primary800: #1f3f1e;
+  primary900: #0c190c;
+  primary950: #030603;
+
+  // Secondary
+  secondary: #1e578b;
+  secondary50: #c7daec;
+  secondary100: #b4cce1;
+  secondary200: #8fafcc;
+  secondary300: #6991b6;
+  secondary400: #4474a1;
+  secondary500: #1e578b;
+  secondary600: #18466f;
+  secondary700: #123453;
+  secondary800: #0c2338;
+  secondary900: #06111c;
+
+  // Success
+  success: #21c55d;
+  success50: #f1f5f9;
+  success100: #dcfce6;
+  success200: #baf7d0;
+  success300: #87eeab;
+  success400: #49de80;
+  success500: #21c55d;
+  success600: #16a349;
+  success700: #16803c;
+  success800: #166434;
+  success900: #14532d;
+
+  // Info
+  info: #0ba5e9;
+  info50: #f0f9fe;
+  info100: #dff1fe;
+  info200: #bae6fc;
+  info300: #7cd3fc;
+  info400: #37bcf8;
+  info500: #0ba5e9;
+  info600: #0084c7;
+  info700: #0568a0;
+  info800: #065984;
+  info900: #0c4a6e;
+
+  // Warning
+  warning: #f59e0b;
+  warning50: #fefbeb;
+  warning100: #fef2c7;
+  warning200: #fde68a;
+  warning300: #fbd34c;
+  warning400: #fbbe24;
+  warning500: #f59e0b;
+  warning600: #d97707;
+  warning700: #b4530a;
+  warning800: #92400d;
+  warning900: #783510;
+
+  // Danger
+  danger: #f43f5e;
+  danger50: #fff0f2;
+  danger100: #ffe4e5;
+  danger200: #fdcdd2;
+  danger300: #fca4af;
+  danger400: #fb7185;
+  danger500: #f43f5e;
+  danger600: #e11d47;
+  danger700: #be123b;
+  danger800: #9f1239;
+  danger900: #881337;
+
+  // Grays = TW Slate [updated]
+  gray: #64748b;
+  gray50: #f8fafc;
+  gray100: #f1f5f9;
+  gray200: #e2e8f0;
+  gray300: #cbd5e1;
+  gray400: #94a3b8;
+  gray500: #64748b;
+  gray600: #475569;
+  gray700: #334155;
+  gray800: #1e293b;
+  gray900: #0f172a;
+}
