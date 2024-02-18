@@ -1,4 +1,4 @@
-import {
+import React, {
   ChangeEvent,
   FocusEvent,
   FormEvent,
@@ -432,7 +432,7 @@ const TextField = ({
   fieldHeight = "md", //sm/md/lg
   showErrorIcon = false,
   leftIconName,
-  rightIconName,
+  rightIconName="heart",
   isRightIconClickable = false,
   iconSize = "20px",
   iconStrokeWidth = "2px",
@@ -703,6 +703,7 @@ const TextField = ({
         {isLeftIconValid() ? (
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-8">
             <Icon
+              data-testid="heart" 
               iconName={leftIconName}
               iconSize={iconSize}
               iconColor={iconColor}
@@ -718,6 +719,7 @@ const TextField = ({
           >
             {isRightIconClickable ? (
               <ButtonIcon
+              data-testid= "heart"
                 iconName={rightIconName}
                 iconSize={iconSize}
                 iconColor={iconColor}
@@ -726,6 +728,7 @@ const TextField = ({
               />
             ) : (
               <Icon
+              data-testid="heart" 
                 iconName={rightIconName}
                 iconSize={iconSize}
                 iconColor={iconColor}
@@ -737,6 +740,7 @@ const TextField = ({
         {errorText.length > 0 && showErrorIcon ? (
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-8">
             <Icon
+            data-testid="heart" 
               iconName={errorIconName}
               iconSize={iconSize}
               iconColor={errorIconColor}
