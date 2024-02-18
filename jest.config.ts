@@ -118,6 +118,22 @@ const config: Config = {
 
   },
 
+  reporters: [
+    "default",
+    ["jest-stare", {
+      "reportTitle": "Component Library Testing",
+      "staticDirectory": "html-report", // Directory where the report will be generated
+      "staticAssets": true, // Generate static assets for the report
+      "graphs": true, // Enable graphs and charts in the report
+      "coverageLink": true, // Include a link to the coverage report
+      "resultHtml": "test-report.html", // Name of the HTML report file
+      "resultJson": "test-report.json", // Name of the JSON report file
+      "watchMode": false, // Enable watch mode for the reporter
+      "log": true, // Log test execution details
+      "logHeading": "Results" // Heading for the log section
+    }]
+  ],
+
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   // modulePathIgnorePatterns: [],
 

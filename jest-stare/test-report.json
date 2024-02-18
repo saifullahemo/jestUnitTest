@@ -1,0 +1,147 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 1,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 2,
+  "numTotalTests": 3,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1708259686682,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1708259689688,
+        "runtime": 2458,
+        "slow": false,
+        "start": 1708259687230
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/home/arits/development/jestprojects/jestUnitTest/app/__test__/alert/Alert.test.tsx",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Alert Component"
+          ],
+          "duration": 39,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Alert Component renders alert with default props",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 4,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "renders alert with default props"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1708259689689,
+        "runtime": 2474,
+        "slow": false,
+        "start": 1708259687215
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/home/arits/development/jestprojects/jestUnitTest/app/__test__/textField/TextField.test.tsx",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "TextField component"
+          ],
+          "duration": 41,
+          "failureDetails": [
+            {
+              "name": "TestingLibraryElementError"
+            }
+          ],
+          "failureMessages": [
+            "TestingLibraryElementError: Unable to find an element by: [data-testid=\"heart\"]\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"altd-text-field w-full transition\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"relative bg-white dark:bg-slate-800 rounded-md\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"left-8 block w-full border font-medium text-slate-700 placeholder-slate-400 rounded-md border-slate-200 ring-slate-200 focus-within:border-primary-500 focus-within:ring-primary-500 focus:outline-none focus:ring-0 pl-12 pr-36 h-44\"\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[33mmaxlength\u001b[39m=\u001b[32m\"255\"\u001b[39m\n          \u001b[33mminlength\u001b[39m=\u001b[32m\"0\"\u001b[39m\n          \u001b[33mname\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n          \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"pointer-events-none absolute inset-y-0 right-0 flex items-center pr-8\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<svg\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"box-content inline-flex shrink-0 grow-0 rounded\"\u001b[39m\n            \u001b[33mfill\u001b[39m=\u001b[32m\"none\"\u001b[39m\n            \u001b[33mheight\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n            \u001b[33mstroke\u001b[39m=\u001b[32m\"#98a2b3\"\u001b[39m\n            \u001b[33mstroke-linecap\u001b[39m=\u001b[32m\"round\"\u001b[39m\n            \u001b[33mstroke-linejoin\u001b[39m=\u001b[32m\"round\"\u001b[39m\n            \u001b[33mstroke-width\u001b[39m=\u001b[32m\"2px\"\u001b[39m\n            \u001b[33mwidth\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<use\u001b[39m\n              \u001b[33mxlink:href\u001b[39m=\u001b[32m\"/icons/untitled-ui-sprite.svg#heart\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n          \u001b[36m</svg>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at /home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js:76:38\n    at /home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js:52:17\n    at /home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js:95:19\n    at Object.<anonymous> (/home/arits/development/jestprojects/jestUnitTest/app/__test__/textField/TextField.test.tsx:34:23)\n    at Promise.then.completed (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:121:9)\n    at run (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)\n    at jestAdapter (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/testWorker.js:106:12)"
+          ],
+          "fullName": "TextField component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": ""
+        },
+        {
+          "ancestorTitles": [
+            "TextField component"
+          ],
+          "duration": 8,
+          "failureDetails": [
+            {
+              "name": "TestingLibraryElementError"
+            }
+          ],
+          "failureMessages": [
+            "TestingLibraryElementError: Unable to find an element by: [data-testid=\"heart\"]\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"altd-text-field w-full transition\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"relative bg-white dark:bg-slate-800 rounded-md\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"left-8 block w-full border font-medium text-slate-700 placeholder-slate-400 rounded-md border-slate-200 ring-slate-200 focus-within:border-primary-500 focus-within:ring-primary-500 focus:outline-none focus:ring-0 pl-12 pr-36 h-44\"\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[33mmaxlength\u001b[39m=\u001b[32m\"255\"\u001b[39m\n          \u001b[33mminlength\u001b[39m=\u001b[32m\"0\"\u001b[39m\n          \u001b[33mname\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n          \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"false absolute inset-y-0 right-0 flex items-center pr-8\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"altd-button-icon inline-block outline-none hover:cursor-pointer focus-visible:ring-2 focus-visible:ring-primary\"\u001b[39m\n            \u001b[33mtitle\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<svg\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"box-content inline-flex shrink-0 grow-0 rounded\"\u001b[39m\n              \u001b[33mfill\u001b[39m=\u001b[32m\"none\"\u001b[39m\n              \u001b[33mheight\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n              \u001b[33mstroke\u001b[39m=\u001b[32m\"#98a2b3\"\u001b[39m\n              \u001b[33mstroke-linecap\u001b[39m=\u001b[32m\"round\"\u001b[39m\n              \u001b[33mstroke-linejoin\u001b[39m=\u001b[32m\"round\"\u001b[39m\n              \u001b[33mstroke-width\u001b[39m=\u001b[32m\"2px\"\u001b[39m\n              \u001b[33mwidth\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<use\u001b[39m\n                \u001b[33mxlink:href\u001b[39m=\u001b[32m\"/icons/untitled-ui-sprite.svg#heart\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</svg>\u001b[39m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at /home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js:76:38\n    at /home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js:52:17\n    at /home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js:95:19\n    at Object.<anonymous> (/home/arits/development/jestprojects/jestUnitTest/app/__test__/textField/TextField.test.tsx:51:34)\n    at Promise.then.completed (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:121:9)\n    at run (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)\n    at jestAdapter (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/home/arits/development/jestprojects/jestUnitTest/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/testWorker.js:106:12)"
+          ],
+          "fullName": "TextField component Button icon clickable ",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Button icon clickable "
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mTextField component › \u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Unable to find an element by: [data-testid=\"heart\"]\n\n    Ignored nodes: comments, script, style\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"altd-text-field w-full transition\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"relative bg-white dark:bg-slate-800 rounded-md\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<input\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"left-8 block w-full border font-medium text-slate-700 placeholder-slate-400 rounded-md border-slate-200 ring-slate-200 focus-within:border-primary-500 focus-within:ring-primary-500 focus:outline-none focus:ring-0 pl-12 pr-36 h-44\"\u001b[39m\n              \u001b[33mid\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mmaxlength\u001b[39m=\u001b[32m\"255\"\u001b[39m\n              \u001b[33mminlength\u001b[39m=\u001b[32m\"0\"\u001b[39m\n              \u001b[33mname\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mplaceholder\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n              \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"pointer-events-none absolute inset-y-0 right-0 flex items-center pr-8\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<svg\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"box-content inline-flex shrink-0 grow-0 rounded\"\u001b[39m\n                \u001b[33mfill\u001b[39m=\u001b[32m\"none\"\u001b[39m\n                \u001b[33mheight\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n                \u001b[33mstroke\u001b[39m=\u001b[32m\"#98a2b3\"\u001b[39m\n                \u001b[33mstroke-linecap\u001b[39m=\u001b[32m\"round\"\u001b[39m\n                \u001b[33mstroke-linejoin\u001b[39m=\u001b[32m\"round\"\u001b[39m\n                \u001b[33mstroke-width\u001b[39m=\u001b[32m\"2px\"\u001b[39m\n                \u001b[33mwidth\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<use\u001b[39m\n                  \u001b[33mxlink:href\u001b[39m=\u001b[32m\"/icons/untitled-ui-sprite.svg#heart\"\u001b[39m\n                \u001b[36m/>\u001b[39m\n              \u001b[36m</svg>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33mTextField\u001b[39m rightIconName\u001b[33m=\u001b[39m\u001b[32m\"heart\"\u001b[39m  \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 |\u001b[39m     )\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 34 |\u001b[39m     \u001b[36mconst\u001b[39m rightIcon \u001b[33m=\u001b[39m getByTestId(\u001b[32m\"heart\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 |\u001b[39m     expect(rightIcon)\u001b[33m.\u001b[39mtoBeInTheDocument()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 |\u001b[39m   })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 37 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:76:38\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:52:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:95:19\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mapp/__test__/textField/TextField.test.tsx\u001b[39m\u001b[0m\u001b[2m:34:23)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mTextField component › Button icon clickable \u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Unable to find an element by: [data-testid=\"heart\"]\n\n    Ignored nodes: comments, script, style\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"altd-text-field w-full transition\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"relative bg-white dark:bg-slate-800 rounded-md\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<input\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"left-8 block w-full border font-medium text-slate-700 placeholder-slate-400 rounded-md border-slate-200 ring-slate-200 focus-within:border-primary-500 focus-within:ring-primary-500 focus:outline-none focus:ring-0 pl-12 pr-36 h-44\"\u001b[39m\n              \u001b[33mid\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mmaxlength\u001b[39m=\u001b[32m\"255\"\u001b[39m\n              \u001b[33mminlength\u001b[39m=\u001b[32m\"0\"\u001b[39m\n              \u001b[33mname\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mplaceholder\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n              \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"false absolute inset-y-0 right-0 flex items-center pr-8\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<button\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"altd-button-icon inline-block outline-none hover:cursor-pointer focus-visible:ring-2 focus-visible:ring-primary\"\u001b[39m\n                \u001b[33mtitle\u001b[39m=\u001b[32m\"\"\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[36m<svg\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\"box-content inline-flex shrink-0 grow-0 rounded\"\u001b[39m\n                  \u001b[33mfill\u001b[39m=\u001b[32m\"none\"\u001b[39m\n                  \u001b[33mheight\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n                  \u001b[33mstroke\u001b[39m=\u001b[32m\"#98a2b3\"\u001b[39m\n                  \u001b[33mstroke-linecap\u001b[39m=\u001b[32m\"round\"\u001b[39m\n                  \u001b[33mstroke-linejoin\u001b[39m=\u001b[32m\"round\"\u001b[39m\n                  \u001b[33mstroke-width\u001b[39m=\u001b[32m\"2px\"\u001b[39m\n                  \u001b[33mwidth\u001b[39m=\u001b[32m\"20px\"\u001b[39m\n                \u001b[36m>\u001b[39m\n                  \u001b[36m<use\u001b[39m\n                    \u001b[33mxlink:href\u001b[39m=\u001b[32m\"/icons/untitled-ui-sprite.svg#heart\"\u001b[39m\n                  \u001b[36m/>\u001b[39m\n                \u001b[36m</svg>\u001b[39m\n              \u001b[36m</button>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 49 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 50 |\u001b[39m     \u001b[90m// const textFieldElement = screen.getByPlaceholderText(\"\")\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 51 |\u001b[39m     \u001b[36mconst\u001b[39m buttonElement \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByTestId(\u001b[32m\"heart\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 52 |\u001b[39m     fireEvent\u001b[33m.\u001b[39mclick(buttonElement)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 53 |\u001b[39m     expect(mockOnRightIconClick)\u001b[33m.\u001b[39mtoHaveBeenCalledTimes(\u001b[35m1\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 54 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:76:38\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:52:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/.pnpm/@testing-library+dom@9.3.4/node_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:95:19\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mapp/__test__/textField/TextField.test.tsx\u001b[39m\u001b[0m\u001b[2m:51:34)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}

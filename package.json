@@ -20,10 +20,12 @@
     "prepare": "husky install",
     "update-icon-names": "node ./app/components/library/Icon/icon-name-generator.mjs",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test-with-output": "jest --json --outputFile=output.json && jest-stare --json output.json",
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "jest-config": "^29.7.0",
+    "jest-stare": "^2.5.1",
     "next": "14.0.4",
     "node-sass": "^9.0.0",
     "react": "^18",
