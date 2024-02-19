@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1708331606093,
+  "startTime": 1708332524593,
   "success": false,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1708331608237,
-        "runtime": 1793,
+        "end": 1708332527535,
+        "runtime": 2590,
         "slow": false,
-        "start": 1708331606444
+        "start": 1708332524945
       },
       "skipped": false,
       "snapshot": {
@@ -52,13 +52,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/home/arits/development/jestprojects/jestUnitTest/app/__test__/FileDragDrop/FileDragDrop.test.tsx",
+      "testFilePath": "/home/arits/development/jestprojects/jestUnitTest/app/components/library/form/FileDragAndDrop/FileDragDrop.test.tsx",
       "testResults": [
         {
           "ancestorTitles": [
             "FileDragDrop"
           ],
-          "duration": 68,
+          "duration": 55,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "FileDragDrop should render without crashing",
@@ -73,7 +73,7 @@
           "ancestorTitles": [
             "FileDragDrop"
           ],
-          "duration": 21,
+          "duration": 25,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "FileDragDrop should render with correct text",
@@ -88,7 +88,7 @@
           "ancestorTitles": [
             "FileDragDrop"
           ],
-          "duration": 35,
+          "duration": 37,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "FileDragDrop should handle file drop",
@@ -103,7 +103,7 @@
           "ancestorTitles": [
             "FileDragDrop"
           ],
-          "duration": 28,
+          "duration": 29,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "FileDragDrop should handle single file upload",
@@ -118,7 +118,7 @@
           "ancestorTitles": [
             "FileDragDrop"
           ],
-          "duration": 20,
+          "duration": 21,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "FileDragDrop should handle multiple file uploads",
