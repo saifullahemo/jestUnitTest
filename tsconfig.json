@@ -33,7 +33,8 @@
       "@variables/*": ["app/styles/scss/*"],
       "@utils/*": ["utils/*"]
     },
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "types": ["jest"]
   },
   "include": [
     "next-env.d.ts",

@@ -133,18 +133,20 @@ const config: Config = {
         "watchMode": false,
         "log": true,
         "logHeading": "Results",
-        "inlineSource": true, // Enable inline source code display
+        "inlineSource": true,
         "inlineSourceOptions": {
           "prettierConfig": {
             "semi": true,
             "singleQuote": true,
             "trailingComma": "all"
           },
-          "highlight": true, // Enable syntax highlighting
-          "omitLockedLines": false, // Include locked lines
-          "omitCoverageIndicator": true // Omit coverage indicators
+          "highlight": true,
+          "omitLockedLines": false,
+          "omitCoverageIndicator": true
         },
-        "codeSymbolExpand": "start" // Expand top-level code symbols
+        "codeSymbolExpand": "start",
+        // Add this option to display error details
+        "failDetails": true
       }
     ]
   ],

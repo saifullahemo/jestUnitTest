@@ -1,0 +1,108 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "px-to-rem.px-per-rem": 14,
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": true,
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "-",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "=>",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#FFEB4D",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "+",
+      "color": "#ffffff",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#3498DB99",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "cSpell.words": [
+    "ARITS",
+    "aritslimited",
+    "autotable",
+    "AVFM",
+    "clsx",
+    "commitlint",
+    "datetime",
+    "disagg",
+    "emranffl",
+    "headlessui",
+    "issuetype",
+    "Jotform",
+    "jspdf",
+    "Knowledgebase",
+    "libphonenumber",
+    "lifecycles",
+    "lockb",
+    "Logframe",
+    "nextjs",
+    "nivo",
+    "popperjs",
+    "preact",
+    "progressbar",
+    "querykey",
+    "reactflow",
+    "tailwindcss",
+    "tanstack",
+    "tinymce",
+    "Topbar",
+    "toploader",
+    "twcolors",
+    "unoptimized",
+    "webp",
+    "weeknumber"
+  ]
+}
